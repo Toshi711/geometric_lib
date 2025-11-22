@@ -21,4 +21,4 @@ jobs:
         python-version: '3.9'
     - name: Run unit tests
       run: |
-        python tests/runner.py
+        python3 -m unittest tests/runner.py
